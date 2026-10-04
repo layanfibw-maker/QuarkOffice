@@ -1,0 +1,17 @@
+{
+  "name": "quarkoffice",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "QuarkOffice — an open-source AI office suite for documents, spreadsheets, presentations, and local-first productivity.",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.2"
+  }
+}
